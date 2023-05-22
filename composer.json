@@ -1,0 +1,17 @@
+{
+  "name": "cryptorg/public-api",
+  "description": "Cryptorg public API",
+  "authors": [
+    {
+      "name": "Cryptorg team"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CryptorgApi\\": "CryptorgApi/"
+    }
+  },
+  "require": {
+    "ext-curl": "*"
+  }
+}
